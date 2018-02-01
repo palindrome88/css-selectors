@@ -1,0 +1,42 @@
+header{ /*Question 1*/
+    border: 1px red;
+}
+
+ul{ /*Question 2 */
+    display: flex;
+    flex-direction: row;
+}
+
+header li{
+    list-style-type: none;
+    
+}
+
+.disabled{/* Question 4 */
+
+    color: gray;
+}
+
+.active{ /* Question 5 */
+    color: yellow;
+}
+
+.grandparent .parent div div{
+
+    color: red;
+}
+.grandparent .parent div div:first-of-type +div{
+
+    color: blue;
+}
+
+.grandparent .parent div h4{ /* Question 10*/
+    background-color: red;
+}
+
+.grandparent .parent div h4:first-of-type + h4{ /* Question 11*/
+
+    background-color: blue;
+}
+
+.grandparent:c
